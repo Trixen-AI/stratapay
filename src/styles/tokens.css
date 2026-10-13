@@ -1,0 +1,38 @@
+/* StrataPay design tokens. Dark-only, like the reference layout.
+   Ramp: soft white -> light mint -> mint -> jade -> emerald -> deep emerald -> midnight. */
+:root {
+  --radius: 0.625rem;
+
+  --background: #030806;
+  --foreground: #f4f8f5;
+  --card: #0a120e;
+  --card-foreground: #f4f8f5;
+  --popover: #030806;
+  --popover-foreground: #f4f8f5;
+  --primary: #ffffff;
+  --primary-foreground: #000000;
+  --secondary: #1d3a2c;
+  --secondary-foreground: #f4f8f5;
+  --muted: #0f2219;
+  --muted-foreground: #b9c2bc;
+  --accent: #1f7a52;
+  --accent-foreground: #f4f8f5;
+  --destructive: #f2555a;
+  --border: #1c211e;
+  --input: #232d28;
+  --ring: #7fe3a8;
+  --success: #7fe3a8;
+
+  --gradient-soft-white: #f6f8f5;
+  --gradient-light-mint: #c9f2d8;
+  --gradient-mint: #7fe3a8;
+  --gradient-jade: #3fae78;
+  --gradient-emerald: #1f9a5e;
+  --gradient-deep-emerald: #157a4a;
+  --gradient-midnight: #0a1f15;
+
+  /* glow stops used by inline radial glows (light -> mid -> dark) */
+  --glow-1: #b6f0c8;
+  --glow-2: #1f7a4d;
+  --glow-3: #0b2418;
+}

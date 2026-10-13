@@ -1,0 +1,15 @@
+{
+  "name": "StrataPay",
+  "short_name": "StrataPay",
+  "description": "The card for coin creators. Turn creator fees into spending power.",
+  "start_url": "/app",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#030806",
+  "theme_color": "#030806",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
